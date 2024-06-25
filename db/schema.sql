@@ -1,12 +1,12 @@
 -- db/schema.sql
-DROP DATABASE IF EXISTS debug_arena;
-CREATE DATABASE debug_arena;
+DROP DATABASE IF EXISTS firebase_test;
+CREATE DATABASE firebase_test;
 
-\c debug_arena;
+\c firebase_test;
 
 
 CREATE TABLE users (
-    id SERIAL PRIMARY KEY ,
+    id SERIAL PRIMARY KEY,
     uid VARCHAR(255),
     email VARCHAR(100),
     username VARCHAR(100),
